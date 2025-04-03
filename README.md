@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Un reproductor multimedia moderno y elegante construido con React, Vite y Tailwind CSS que soporta tanto archivos de audio como de video.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Reproductor Multimedia](https://via.placeholder.com/800x400?text=Reproductor+Multimedia)
 
-## Available Scripts
+## ✨ Características
 
-In the project directory, you can run:
+- **Soporte para múltiples formatos** - Reproduce archivos de audio (MP3) y video (MP4)
+- **Interfaz elegante y responsiva** - Diseño moderno con Tailwind CSS que se adapta a cualquier dispositivo
+- **Controles completos de reproducción**:
+  - Reproducir/Pausar/Detener
+  - Avance/retroceso rápido (10 segundos)
+  - Barra de progreso interactiva
+  - Control de volumen con slider
+  - Botón de silencio
+  - Modo pantalla completa para videos
+- **Visualización de tiempo** - Muestra el tiempo actual y la duración total
+- **Visualización de metadatos** - Título, artista e imagen de portada para archivos de audio
+- **Animaciones fluidas** - Efectos visuales para mejorar la experiencia de usuario
+- **Personalizable** - Fácil de adaptar y extender
 
-### `npm start`
+## 🛠️ Tecnologías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [React](https://reactjs.org/) - Biblioteca JavaScript para construir interfaces de usuario
+- [Vite](https://vitejs.dev/) - Herramienta de desarrollo frontend ultrarrápida
+- [Tailwind CSS](https://tailwindcss.com/) - Framework CSS utilitario
+- [Lucide React](https://lucide.dev/) - Iconos hermosos y consistentes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📋 Requisitos previos
 
-### `npm test`
+- Node.js (versión 14.0 o superior)
+- npm o yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Instalación
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/media-player.git
+   cd media-player
