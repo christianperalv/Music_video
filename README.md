@@ -1,6 +1,6 @@
 Un reproductor multimedia moderno y elegante construido con React, Vite y Tailwind CSS que soporta tanto archivos de audio como de video.
 
-![Reproductor Multimedia](https://via.placeholder.com/800x400?text=Reproductor+Multimedia)
+
 
 ## ✨ Características
 
